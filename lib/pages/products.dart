@@ -9,6 +9,7 @@ class Products extends StatelessWidget {
   }) : super(key: key);
 
   final String url = 'https://fakestoreapi.com/products';
+  // final String url = 'http://10.0.2.2/products';
   // android emulator http://10.0.2.2
 
   Future getProducts() async {
@@ -57,7 +58,7 @@ class Products extends StatelessWidget {
                           Container(
                             height: 120,
                             padding: EdgeInsets.all(5),
-                            child: Image.network(snapshot.data[index]['image'])
+                            child: Image.network(snapshot.data[index]['image_url'])
                           ),
                           Container(
                             padding: EdgeInsets.all(10),
