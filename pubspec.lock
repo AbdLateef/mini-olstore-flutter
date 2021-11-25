@@ -81,6 +81,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.0"
+  inspection:
+    dependency: "direct main"
+    description:
+      name: inspection
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.13"
   matcher:
     dependency: transitive
     description:
